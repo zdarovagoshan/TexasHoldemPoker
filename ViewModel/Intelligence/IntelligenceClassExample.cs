@@ -97,7 +97,7 @@ namespace ViewModelLib
             => String.Join(
                 "\n",
                 "Название классов в Model:",
-                InterfaceLib.InterfaceClassExample.Factory().GetType().Name,
+                InterfaceLib.InterfaceLib.Factory().GetType().Name,
                 PlayerLib.PlayerClassExample.Factory().GetType().Name
                 );
     }
